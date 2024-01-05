@@ -10,7 +10,7 @@ import {SafeAreaView, StatusBar, Text, useColorScheme} from 'react-native';
 
 import {createStyleSheet, useStyles} from 'react-native-unistyles';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import './unistyles';
+import './assets/styles/unistyles';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
